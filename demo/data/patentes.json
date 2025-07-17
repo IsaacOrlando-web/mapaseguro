@@ -1,0 +1,144 @@
+{
+    "patentes": [
+        {
+            "numero_patente": "AB123CD",
+            "modelo": "Toyota Hilux 2023",
+            "dueño": "Martín Riquelme",
+            "direccion": "Av. Providencia 2050, Santiago",
+            "sector": 1
+        },
+        {
+            "numero_patente": "EF456GH",
+            "modelo": "Hyundai Tucson 2022",
+            "dueño": "Camila Soto",
+            "direccion": "Calle Colo Colo 345, Valparaíso",
+            "sector": 2
+        },
+        {
+            "numero_patente": "IJ789KL",
+            "modelo": "Chevrolet Sail 2021",
+            "dueño": "Felipe Muñoz",
+            "direccion": "Los Alerces 789, Concepción",
+            "sector": 3
+        },
+        {
+            "numero_patente": "MN012OP",
+            "modelo": "Kia Sportage 2023",
+            "dueño": "Valentina Díaz",
+            "direccion": "Av. Las Condes 10052, Santiago",
+            "sector": 1
+        },
+        {
+            "numero_patente": "QR345ST",
+            "modelo": "Nissan Qashqai 2022",
+            "dueño": "Jorge Silva",
+            "direccion": "Paseo Ahumada 220, Santiago",
+            "sector": 1
+        },
+        {
+            "numero_patente": "UV678WX",
+            "modelo": "Volkswagen Amarok 2021",
+            "dueño": "Andrea López",
+            "direccion": "Av. Argentina 456, Valparaíso",
+            "sector": 2
+        },
+        {
+            "numero_patente": "YZ901AB",
+            "modelo": "Suzuki Swift 2020",
+            "dueño": "Roberto Navarro",
+            "direccion": "Los Carrera 789, Talca",
+            "sector": 3
+        },
+        {
+            "numero_patente": "CD234EF",
+            "modelo": "Ford Ranger 2023",
+            "dueño": "María Fernández",
+            "direccion": "Av. Libertad 1200, Viña del Mar",
+            "sector": 2
+        },
+        {
+            "numero_patente": "GH567IJ",
+            "modelo": "Peugeot 208 2022",
+            "dueño": "Diego Castro",
+            "direccion": "Av. España 876, La Serena",
+            "sector": 3
+        },
+        {
+            "numero_patente": "KL890MN",
+            "modelo": "Mazda CX-5 2021",
+            "dueño": "Carolina Méndez",
+            "direccion": "Los Plátanos 543, Rancagua",
+            "sector": 1
+        },
+        {
+            "numero_patente": "OP123QR",
+            "modelo": "Jeep Compass 2023",
+            "dueño": "Héctor Guzmán",
+            "direccion": "Av. Alemania 234, Temuco",
+            "sector": 2
+        },
+        {
+            "numero_patente": "ST456UV",
+            "modelo": "Renault Duster 2022",
+            "dueño": "Natalia Rojas",
+            "direccion": "Los Olmos 321, Puerto Montt",
+            "sector": 3
+        },
+        {
+            "numero_patente": "WX789YZ",
+            "modelo": "Fiat Cronos 2021",
+            "dueño": "Pablo Herrera",
+            "direccion": "Av. Los Leones 890, Santiago",
+            "sector": 1
+        },
+        {
+            "numero_patente": "AB012CD",
+            "modelo": "Citroën C4 Cactus 2020",
+            "dueño": "Daniela Vargas",
+            "direccion": "Los Pinos 432, Antofagasta",
+            "sector": 2
+        },
+        {
+            "numero_patente": "EF345GH",
+            "modelo": "Subaru XV 2023",
+            "dueño": "Gustavo Morales",
+            "direccion": "Av. Los Castaños 765, Valdivia",
+            "sector": 3
+        },
+        {
+            "numero_patente": "IJ678KL",
+            "modelo": "BMW X1 2022",
+            "dueño": "Sofía Contreras",
+            "direccion": "Av. Manquehue 1500, Santiago",
+            "sector": 1
+        },
+        {
+            "numero_patente": "MN901OP",
+            "modelo": "Mercedes-Benz A200 2021",
+            "dueño": "Ricardo Soto",
+            "direccion": "Av. Andrés Bello 2100, Santiago",
+            "sector": 1
+        },
+        {
+            "numero_patente": "QR234ST",
+            "modelo": "Audi Q3 2023",
+            "dueño": "Fernanda Gutiérrez",
+            "direccion": "Los Jazmines 543, Iquique",
+            "sector": 2
+        },
+        {
+            "numero_patente": "UV567WX",
+            "modelo": "Volvo XC40 2022",
+            "dueño": "Patricio Ruiz",
+            "direccion": "Av. El Golf 99, Las Condes",
+            "sector": 3
+        },
+        {
+            "numero_patente": "YZ890AB",
+            "modelo": "Lexus UX 2021",
+            "dueño": "Isabel Torres",
+            "direccion": "Los Nogales 678, Punta Arenas",
+            "sector": 1
+        }
+    ] 
+}
