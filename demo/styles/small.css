@@ -1,0 +1,74 @@
+:root {
+    --background-color: #f8f5f2;
+    --background-color2: #e8e0d5;
+    --main-color: #2a4d6e;
+    --accent-color: #4a7ba6;
+    --text-color: #333333;
+    --light-text: #5a5a5a;
+    --border-radius: 12px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.formulario {
+    font-family: 'Montserrat', 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background-color2);
+    display: grid;
+    grid-column: 1fr;
+    padding: 2rem;
+    width: 24rem;
+    margin: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+form h2 {
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+label {
+    margin-top: 1.2rem;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.formulario input[type="text"],input[type="password"]  {
+    margin-top: 0.5rem;
+    width: 90%;
+    height: 2.8rem;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+    padding: 0 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.formulario input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(74, 123, 166, 0.2);
+}
+
+.formulario button {
+    margin-top: 20px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-2px);
+}
