@@ -15,8 +15,8 @@
     display: grid;
     grid-column: 1fr;
     padding: 2rem;
-    width: 24rem;
-    margin: auto;
+    width: 15rem;
+    margin: 1rem auto;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -71,4 +71,11 @@ label {
 .formulario button:hover {
     background-color: var(--accent-color);
     transform: translateY(-2px);
+}
+
+.mapaseguro-Logo {
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
