@@ -109,7 +109,7 @@ header {
         top: 9px;
 
         & span{
-            font-size: 1.2em;
+            font-size: 15px;
             font-weight:200;
             color: #ffe;
             letter-spacing: 2px;
@@ -222,3 +222,70 @@ nav ul li a:focus {
     background: var(--main-color);
     color: var(--background-color2);
 }
+.main-map {
+    background-image: linear-gradient(135deg, #e8eaf6 0%, #f8f5f2 100%);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    & p{
+        font-size: large;
+        border-top: 3px dashed var(--light-text);
+        border-bottom: 3px dashed var(--light-text);
+        padding: 10px;
+    }
+}
+
+.main-map div {
+    padding: 1rem;
+    border: solid 2px var(--accent-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    & h2{
+        background-color: var(--accent-color);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+.sector1:hover, .sector2:hover, .sector3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(74,123,166,0.3);
+    background: linear-gradient(120deg, #e3f0fa 60%, #fff 100%);
+}
+
+.sector2 {
+    width: 150px;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 2rem; /* Espacio entre sectores */
+}
+
+.oneThree-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem; /* Espacio entre sectores 1 y 3 */
+}
+
+.sector1, .sector3 {
+    width: 7rem;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Colores diferenciados para cada sector */
+.sector1 { background-color: #f0f7ff; }
+.sector2 { background-color: #e6f3e6; }
+.sector3 { background-color: #fff0f0; }
+
+.sector1:hover { background: linear-gradient(120deg, #e3f0fa 60%, #f0f7ff 100%); }
+.sector2:hover { background: linear-gradient(120deg, #e3f0fa 60%, #e6f3e6 100%); }
+.sector3:hover { background: linear-gradient(120deg, #e3f0fa 60%, #fff0f0 100%); }
