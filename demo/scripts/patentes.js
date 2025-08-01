@@ -55,6 +55,12 @@ function displayCards(cards) {
       <button class="remove-btn"><img src="images/trush-square-svgrepo-com.svg" width="100"></button>
     `; // Agregar contenido a la tarjeta
 
+    card.querySelector('.remove-btn').addEventListener('click', () => {
+        console.log(cardData.numero_patente);
+        card.remove();
+        console.log(cards);
+    });
+
     seccion.appendChild(card);
   });
 }
