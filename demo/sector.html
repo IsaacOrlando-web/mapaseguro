@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Patentes por Sector</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="styles/small.css" rel="stylesheet" />
     <script src="scripts/patentes.js" defer></script>
   </head>
   <body>
-    <header>
-      <section>
-        <h1 id="title">Sección de ejemplo</h1>
-      </section>
+    <header class="header-sector">
+        <a href="map.html" class="goback-btn"><img src="images/arrow-left-svgrepo-com.svg" alt="goback-btn" width="30"></a>
+        <h1 class="sector-name">Sector: <span id="sector-number"></span></h1>
     </header>
 
-    <main>
+    <main class="main-sector">
       <section class="patentes" id="patentes"></section>
     </main>
 

@@ -3,9 +3,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const fileJson = "data/patentes.json"; //archivo json
   const seccion = document.querySelector(".patentes"); // Sección donde se mostrarán las tarjetas
+  const sectorSection = document.getElementById("sector-number"); //El lugar donde mostrará en que setor está
 
   const params = new URLSearchParams(window.location.search); // Obtener los parámetros de la URL
   const sectorParam = parseInt(params.get("sector")); // Obtener el sector del parámetro de la URL
+  sectorSection.textContent = sectorParam;
 
   const data = await getBusinessData(fileJson); // Cargar los datos del archivo JSON
   const filteredCards = sectorParam
@@ -49,6 +51,7 @@ function displayCards(cards) {
       <p><strong>Dueño:</strong> ${cardData.dueño}</p>
       <p><strong>Dirección:</strong> ${cardData.direccion}</p>
       <p><strong>Sector:</strong> ${cardData.sector}</p>
+      <button><img src="images/trush-square-svgrepo-com.svg" width="100"></button>
     `; // Agregar contenido a la tarjeta
 
     seccion.appendChild(card);
