@@ -45,15 +45,17 @@ function displayCards(cards) {
     const card = document.createElement("section");
     card.classList.add("card");
 
+
     card.innerHTML = `
       <h2>${cardData.modelo}</h2>
       <p><strong>Patente:</strong> ${cardData.numero_patente}</p>
       <p><strong>Dueño:</strong> ${cardData.dueño}</p>
       <p><strong>Dirección:</strong> ${cardData.direccion}</p>
       <p><strong>Sector:</strong> ${cardData.sector}</p>
-      <button><img src="images/trush-square-svgrepo-com.svg" width="100"></button>
+      <button class="remove-btn"><img src="images/trush-square-svgrepo-com.svg" width="100"></button>
     `; // Agregar contenido a la tarjeta
 
     seccion.appendChild(card);
   });
 }
+

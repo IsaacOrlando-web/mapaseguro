@@ -338,4 +338,35 @@ nav ul li a:focus {
 
 .card{
     border-bottom: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    background-color: var(--background-color);
+    & h2{
+        margin-top: 0;
+    }
+}
+
+.remove-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    background-color: var(--accent-color);
+    & img {
+        width: 30px;
+    }
+}
+
+.add-patent {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Si quieres también centrar verticalmente */
+    width: 90px;
+    height: 60px;
+    font-size: 50px;
+    background-color: var(--accent-color);
+    margin: 20px auto;
+    text-align: center;
 }
