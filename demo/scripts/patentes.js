@@ -57,6 +57,7 @@ function displayCards(cards) {
 
     card.querySelector('.remove-btn').addEventListener('click', () => {
         console.log(cardData.numero_patente);
+        alert(`¿Seguro que quiere Eliminar "${cardData.numero_patente}" de las patentes?`)
         card.remove();
         console.log(cards);
     });
