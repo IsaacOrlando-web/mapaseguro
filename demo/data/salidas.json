@@ -1,0 +1,14 @@
+{
+  "salidas": [
+    {
+      "patente": "AB123CD",
+      "fecha_salida": "2025-08-06",
+      "hora_salida": "18:00"
+    },
+    {
+      "patente": "XY987ZT",
+      "fecha_salida": "2025-08-06",
+      "hora_salida": "17:30"
+    }
+  ]
+}
