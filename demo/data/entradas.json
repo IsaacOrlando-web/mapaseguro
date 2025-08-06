@@ -1,0 +1,14 @@
+{
+  "entradas": [
+    {
+      "patente": "AB123CD",
+      "fecha_entrada": "2025-08-06",
+      "hora_entrada": "08:15"
+    },
+    {
+      "patente": "XY987ZT",
+      "fecha_entrada": "2025-08-06",
+      "hora_entrada": "09:45"
+    }
+  ]
+}

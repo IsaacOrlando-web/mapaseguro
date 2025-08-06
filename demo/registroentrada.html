@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/registroentrada.js" defer></script>
+    <title>MapaSeguro | Registro de entradas</title>
+  </head>
+  <body>
+    <header class="header-map">
+      <h1>🏠Condominio: <span>San Joaquín</span></h1>
+
+      <button id="myButton"></button>
+    </header>
+    <nav id="animateme">
+      <ul class="menuLinks">
+        <li><a href="map.html">mapa</a></li>
+        <li><a href="registroentrada.html">Registro De entrada</a></li>
+        <li><a href="registrosalida.html">Registro de Salida</a></li>
+      </ul>
+    </nav>
+    <main class="registro">
+      <section class="add-entrada">
+        <h2>Registro de Entrada</h2>
+        <form id="entrada-form">
+          <label for="patente">Patente:</label>
+          <input
+            type="text"
+            name="patente"
+            value="patente"
+            id="input-patente"
+            required
+            placeholder="Ingresa tu patente"
+          />
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required />
+
+          <label for="hora">Hora de entrada:</label>
+          <input type="time" id="hora" name="hora" required />
+
+          <button type="submit" id="submit-btn">Registrar Entrada</button>
+        </form>
+      </section>
+      <section class="lista-entradas">
+        <h2>Lista de Entradas</h2>
+        <table id="entradas-table">
+          <thead>
+            <tr>
+              <th>Patente</th>
+              <th>Fecha</th>
+              <th>Hora de Entrada</th>
+            </tr>
+          </thead>
+          <tbody id="entradas-body">
+            <!-- Las entradas se agregarán aquí dinámicamente -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="map-footer">
+      <img
+        class="mapaseguro-Logo"
+        src="images/logos/logo1.png"
+        alt="MapaSeguro Software"
+      />
+    </footer>
+  </body>
+</html>
