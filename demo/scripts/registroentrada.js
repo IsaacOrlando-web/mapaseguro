@@ -14,12 +14,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     const patente = document.getElementById("input-patente").value.trim();
     const fecha = document.getElementById("fecha").value;
     const hora = document.getElementById("hora").value;
+    const dueno = document.getElementById("input-dueno").value.trim();
 
-    if (patente && fecha && hora) {
+    if (patente && fecha && hora && dueno) {
       const newEntry = {
         patente,
         fecha_entrada: fecha,
         hora_entrada: hora,
+        nombre_dueno: dueno,
       };
 
       addEntradaRow(newEntry);
@@ -48,8 +50,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       <td>${entry.patente}</td>
       <td>${entry.fecha_entrada}</td>
       <td>${entry.hora_entrada}</td>
-      <td><button class="remove-btn btn btn-danger btn-sm">Eliminar</button></td>
+      <td>${entry.nombre_dueno}</td>
     `;
+    //<td><button class="remove-btn btn btn-danger btn-sm">Eliminar</button></td>
 
     newRow.querySelector(".remove-btn").addEventListener("click", () => {
       if (

@@ -359,6 +359,41 @@ nav ul li a:focus {
     }
 }
 
+#entrada-form{
+    display: flex;
+    flex-direction: row;
+}
+
+#entrada-form label, #entrada-form input {
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid var(--main-color);
+    margin-top: 1rem;
+}
+
+thead{
+    background-color: var(--main-color);
+    color: white;
+    & th{
+        padding: 10px;
+        width: 10rem;
+    }
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--background-color2);
+}
+
+tbody td{
+    padding: 10px;
+    border: solid 1px var(--main-color);
+
+}
+
 .add-patent {
     display: flex;
     justify-content: center;
